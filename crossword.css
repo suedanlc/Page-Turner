@@ -1,0 +1,377 @@
+*{
+	font-family: "Merienda";
+	text-align: center;
+	margin: 0;
+}
+
+body{
+background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+background-size: cover;
+}
+
+#puzzel {
+	float:left;
+	width:600px;
+  height:600px;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+.cross{
+	text-align: center;
+	width:50px;
+	height:25px;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid white;
+  background-color: #440066;
+	color: white;
+
+}
+  .word{
+  	text-align: center;
+  	width:60px;
+  	height:25px;
+  	margin: 0;
+  	padding: 0;
+  	border-collapse: collapse;
+  	border: 1px solid white;
+    background-color: #440066;
+   color: white;
+
+  }
+	.romanticism{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.history{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.literacy{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.literacy .novel{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.literacy .novel{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.novel{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.art{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.philosophy{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.philosophy .coffee{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.aristotle{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.aristotle .novel{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.genre{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.coffee{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.fantasy{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.fiction{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+	.aesthetics{
+		text-align: center;
+		width:60px;
+		height:25px;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border: 1px solid white;
+		background-color: #440066;
+		color:white;
+	}
+tr{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	cursor:pointer;
+}
+
+#mainDiv{
+	margin-left: 350px;
+}
+
+.clickedR {
+	background-color: #c653c6;
+}
+
+.clickedH{
+	background-color: #c653c6;
+}
+
+.strikethrough{
+	text-decoration: line-through;
+	opacity:0.5;
+}
+
+.clickedAri{
+	background-color: #c653c6;
+}
+.clickedAes{
+	background-color: #c653c6;
+}
+
+.clickedFi{
+	background-color: #c653c6;
+}
+
+.clickedPh{
+	background-color: #c653c6;
+}
+
+.clickedFa{
+	background-color: #c653c6;
+}
+
+.clickedG{
+	background-color: #c653c6;
+}
+
+.clickedL{
+	background-color: #c653c6;
+}
+
+.clickedN{
+	background-color: #c653c6;
+}
+
+.clickedArt{
+	background-color: #c653c6;
+}
+
+.clickedC{
+	background-color: #c653c6;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.about {
+	/* font-family: "Merienda"; */
+  display: inline-block;
+  float: left;
+  width: 50%;
+  border-style: solid 15px;
+  margin: 7px;
+  min-height: 450px;
+}
+
+p, h2, h1 {
+	  color: white;
+}
+
+#title{
+	margin-top: 30px;
+	font-size: 50px;
+	color:#1c1d4c;
+}
+
+
+button{
+  background:#1c1d4c;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:50px;
+  font-size:1.6em;
+  box-sizing: border-box;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+button:hover{
+  background:#fff;
+  color:#1c1d4c;
+}
+
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1c1d4c;
+  transition:400ms ease all;
+}
+
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.emptyTouched{
+	background-color:  #c653c6;
+}

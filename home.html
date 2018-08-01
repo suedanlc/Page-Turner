@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+   <script src="quotes.js" type="text/javascript"></script>
+   <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>Page Turner</title>
+    <link rel="shortcut icon" type="image/png" href="favicon-1.png">
+  </head>
+  <body onload= "home()">
+
+    <ul>
+      <li><a class="active" href="home.html">Home</a></li>
+      <li><a href="crosswordd.html">Crossword</a></li>
+      <li><a href="girlscode.html">Girls Code</a></li>
+      <li><a href="aboutus.html">About us</a></li>
+    </ul>
+    <!-- <i class="far fa-heart"></i> -->
+    <div id= "main">
+      <div class="input">
+          <h1 id= "title">Book Quotes</h1>
+        <input id="input" type="text"  value=""  placeholder= "Enter an author or a book name" onkeypress="detectEnter(event,this)">
+        <button  id="searchbtn" onclick="search()">Submit</button>
+        <button id="lbtn" onclick="liked(); " >Liked Quotes</button>
+      <div id="output">
+
+
+      </div>
+      <div id="mainQuotes">
+
+      </div>
+      </div>
+    </div>
+    <section class="bottomline">
+        <img src="https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/3/3f/Bottom_Border_.png/revision/latest?cb=20161129235200" style='width:1200px;height:70px;'>
+
+     <link rel="stylesheet" href="home.css">
+
+  </body>
+</html>

@@ -1,0 +1,50 @@
+*{
+  font-family: "Merienda";
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* html {
+  border-left: 10px solid #FFFFFF;
+  border-right: 10px solid #FFFFFF;
+} */
+h1, h2, p {
+  color: #FFFFFF;
+  padding: 4px;
+}
+
+ul{
+  text-decoration: none;
+}
+.intro {
+  margin: 10px;
+}
+
+.aboutDivs {
+  width: 100%;
+}
+.about {
+  display: inline-block;
+  float: left;
+  width: 31.33%;
+  border-style: solid 15px;
+  margin: 1%;
+  min-height: 450px;
+}
+
+body{
+  background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+  background-size: cover;
+}
+
+.line{
+  border-bottom: solid 1px #404040;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#title{
+  margin-top: 30px;
+	font-size: 40px;
+	color:#1c1d4c;
+}

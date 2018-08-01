@@ -1,0 +1,142 @@
+header {
+background-color: #666
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+body{
+background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+background-size: cover;
+}
+/* Style the footer */
+h1 {
+text-align: center;
+font-size: 15px;
+}
+
+section:after {
+content: "";
+display: table;
+clear: both;
+}
+article {
+float: left;
+margin: 20px;
+width: 45%;
+background-color:
+height: 300px;
+align-self: center;
+color: white;
+}
+
+footer {
+background-color: #777
+padding: 10px;
+text-align: center;
+color: white;
+width: 100%;
+font-size: 30px;
+}
+p{
+text-align: center;
+font-size: 17px;
+font-family:"Gaegu";
+}
+.line {
+width: 80%;
+border-bottom: solid 1.5px #404040;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+.bottomline{
+text-align: center;
+padding: 12px;
+}
+.bottomline.{
+text-align: center;
+padding: 12px;
+}
+
+.GWC {
+text-align: center;
+padding: 12px;
+}
+
+*{
+  font-family: "Merienda";
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+a{
+  text-decoration: none;
+  color:#ef233e ;
+}
+button{
+  background:#1c1d4c;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:50px;
+  font-size:1em;
+  box-sizing: border-box;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+button:hover{
+  background:#fff;
+  color:#1c1d4c;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1c1d4c;
+  transition:400ms ease all;
+}
+
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+h2{
+  color: white;
+}
